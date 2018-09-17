@@ -1,0 +1,22 @@
+<resources>
+    <declare-styleable name="SpinnerPreference">
+        <attr name="android:entries" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorPreferenceAttributes">
+        <attr name="isAlphaShown" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SupportPreferenceAttributes">
+        <attr name="facebook_id" format="string"/>
+        <attr name="twitter_id" format="string"/>
+        <attr name="googleplus_id" format="string"/>
+        <attr name="email" format="string"/>
+        <attr name="website" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="LayoutPreference">
+        <attr name="targetLayout" format="string"/>
+        <attr name="targetLayoutId" format="string"/>
+    </declare-styleable>
+</resources>
